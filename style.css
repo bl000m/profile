@@ -10,12 +10,26 @@ li {
     margin: 0px auto;
 }
 
-img {
+.img_container {
+    background:url('images/numbers.gif');
+    margin: 30px auto;
+    border-radius: 4px;
+    width: 200px;
+    height: 200px;
+    opacity: 80%;
+}
+.img_container:hover {
+  background: url('images/profil.jpeg');
+  background-size: cover;
+}
+
+
+/* img {
     margin: 30px;
     border-radius: 4px;
     width: 200px;
     opacity: 80%;
-  }
+  } */
 
 img:hover {
     margin: 30px;
@@ -48,7 +62,7 @@ p {
     border: 1px solid #f56363;
     outline: none;
     transition: 1s ease-in-out;
-  }
+}
 
   svg {
     position: absolute;
@@ -123,5 +137,8 @@ h1, h3, p {
   /* Pour un écran < 540px, cette classe CSS s'applique */
   .container {
     width: 300px;
+  }
+  .discover {
+    margin: 15px;
   }
 }
